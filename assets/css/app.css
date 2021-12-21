@@ -3,16 +3,29 @@
 
 #chat-container {
   display: flex;
-  border: 1px solid #ccc;
-  padding: 1em;
-  margin: -1em 1 1em -1em;
-  flex-direction: column;
   justify-content: space-between;
   height: 500px;
 }
 
 #chat-messages {
   flex-grow: 1;
+  border: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 1em;
+}
+
+#chat-messages p {
+  margin: 0;
+  padding: 0;
+}
+
+#user-list {
+  padding: 1em;
+}
+
+#user-list p {
+  margin: 0;
+  padding: 0;
 }
 
 /* Alerts and form errors used by phx.new */
